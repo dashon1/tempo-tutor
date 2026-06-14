@@ -6,6 +6,7 @@ import Routines from './pages/Routines';
 import Insights from './pages/Insights';
 import PieceDetail from './pages/PieceDetail';
 import __Layout from './Layout.jsx';
+import Login from './pages/Login';
 
 
 export const PAGES = {
@@ -16,6 +17,7 @@ export const PAGES = {
     "Routines": Routines,
     "Insights": Insights,
     "PieceDetail": PieceDetail,
+    "Login": Login,
 }
 
 export const pagesConfig = {
