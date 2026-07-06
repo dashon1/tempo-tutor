@@ -7,6 +7,7 @@ import Insights from './pages/Insights';
 import PieceDetail from './pages/PieceDetail';
 import __Layout from './Layout.jsx';
 import Login from './pages/Login';
+import Pricing from './pages/Pricing';
 
 
 export const PAGES = {
@@ -18,6 +19,7 @@ export const PAGES = {
     "Insights": Insights,
     "PieceDetail": PieceDetail,
     "Login": Login,
+    "Pricing": Pricing,
 }
 
 export const pagesConfig = {
