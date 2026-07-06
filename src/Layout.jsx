@@ -49,6 +49,11 @@ const navigationItems = [
     url: createPageUrl("Settings"),
     icon: Settings,
   },
+  {
+    title: "Upgrade",
+    url: createPageUrl("Pricing"),
+    icon: Music,
+  },
 ];
 
 export default function Layout({ children, currentPageName }) {
